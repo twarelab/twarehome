@@ -6,7 +6,16 @@ featured: true
 ---
 
 생산하는 제품과 테스트의 목적을 분석하여  Firmware writing 및 검수 단계의 기능 테스트에 대한 자동화 솔루션 및 시스템을 공급합니다.  고객이 원하는 장소에 테스트 시스템을 구축하여 고객이 직접 테스트를 진행할 수 있으며, 테스트를 직접 수행하지 않고 외주 서비스로 진행하고자 하는 경우에는 당사에 테스트 시스템을 구축하여 직접 테스트 서비스를 제공합니다.
-## 티웨어랩 테스트 솔루션의 강점
+
+
+![이미지 이름](assets/images/testsolution.png)
+
+<br>
+<br>
+
+<div class="alert alert-warning" role="alert">
+<h4>티웨어랩 테스트 솔루션의 강점</h4>
+</div>
 
 <table class="table table-hover"  markdown="1">
   <tbody>
@@ -17,17 +26,13 @@ featured: true
     <tr>
       <th scope="row">원가 절감</th>
       <td>
-생산시간 단축을 통한 원가절감<br>
-자동화를 통한 인건비 절감
-  </div>
+생산시간 단축을 통한 원가절감, 자동화를 통한 인건비 절감
       </td>
     </tr>
     <tr>
       <th scope="row">생산시간 단축</th>
       <td>
-단위 시간 당 Test 수량 증가<br>
-Lead Time 단축
-  </div>
+단위 시간 당 Test 수량 증가, Lead Time 단축
       </td>
     </tr>
     <tr>
@@ -39,19 +44,21 @@ Lead Time 단축
     <tr>
       <th scope="row">품질 관리 향상</th>
       <td>
-테스트 데이터를 통한 불량 원인 분석<br>
-제품별 생산 이력 관리를 통한 품질 관리 용이
+테스트 데이터를 통한 불량 원인 분석, 제품별 생산 이력 관리를 통한 품질 관리 용이
       </td>
     </tr>
   </tbody>
 </table>
 
-## 테스트 솔루션 공급 진행 과정
+
+<div class="alert alert-warning" role="alert">
+<h4>테스트 솔루션 공급 진행 과정</h4>
+</div>
+
 
 <div class="row row-cols-1 row-cols-md-3">
-  <div class="col mb-4">
+  <div class="col mb-4 bg-danger">
     <div class="card h-100">
-      <img src="{{site.baseurl}}/assets/images/4.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">컨설팅</h5>
         <p class="card-text">고객 제품 분석
@@ -63,7 +70,6 @@ Lead Time 단축
   </div>
   <div class="col mb-4">
     <div class="card h-100">
-      <img src="{{site.baseurl}}/assets/images/4.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">기획</h5>
         <p class="card-text">테스트솔루션 제시
