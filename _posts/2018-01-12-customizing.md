@@ -8,6 +8,12 @@ featured: true
 합리적인 비용으로 고객이 원하는 기능을 구현할 수 있도록 고객 맞춤형 솔루션을 제공하며, 20년 이상의 엔지니어 경험과 전문성 있는 노하우를 바탕으로 고객의 목표에 맞는 최적의 솔루션을 제공합니다.
 ## 개발 가능 영역
 
+개발 가능한 분야는 다음과 같습니다.
+
+Test automation, Embedded System FW, PC Application (TCP/IP network), Cloud service, Flask Based Backend/Frontend solution
+
+----
+
 - PoC(Proof of Concept) 시스템 설계 및 구현
   - Embedded Device 프로그래밍
   - C/C++ Firmware
