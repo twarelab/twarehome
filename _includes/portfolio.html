@@ -1,0 +1,35 @@
+<!-- Portfolio-->
+<section class="page-section" id="portfolio">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <h2 class="text-center mt-0">Portfolio</h2>
+        <hr class="divider my-4" />
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      {% for post in paginator.posts %} {% unless post.featured == true %} {%
+      include postbox.html %} {% endunless %} {% endfor %}
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="assets/images/1.jpg">
+          <img class="img-fluid" src="assets/images/1.jpg" alt="..." />
+          <div class="portfolio-box-caption">
+            <div class="project-category text-white-50">Category</div>
+            <div class="project-name">Project Name</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="assets/images/2.jpg">
+          <img class="img-fluid" src="assets/images/2.jpg" alt="..." />
+          <div class="portfolio-box-caption">
+            <div class="project-category text-white-50">Category</div>
+            <div class="project-name">Project Name</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

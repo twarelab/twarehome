@@ -1,0 +1,85 @@
+<!-- Services-->
+<section class="page-section" id="services">
+  <div class="container">
+    <h2 class="text-center mt-0">twareLAB Service</h2>
+    <hr class="divider my-4" />
+    <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code mb-4"></i>
+            <h3 class="h5">풍부한 개발 기술과 노하우</h3>
+            <p class="text-muted mb-0">FW, SW 등의 다양한 개발 경험, 분업화된 시스템으로 전문성 확보</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-users-cog mb-4"></i>
+            <h3 class="h5">맞춤형 제작을 통한 최적화 개발</h3>
+            <p class="text-muted mb-0">컨설팅을 통한 명확한 개발 목표 설정, 고객에게 특화된 솔루션 제공</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-recycle mb-4"></i>
+            <h3 class="h5">체계적이고 명확한 프로세스</h3>
+            <p class="text-muted mb-0">개발 단계별 명확한 업무 설정, 열린 소통을 통한 원활한 커뮤니케이션</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-quote-right mb-4"></i>
+            <h3 class="h5">완벽한 사후관리</h3>
+            <p class="text-muted mb-0">안정적인 사용환경 구축 및 매뉴얼 제공, 무상유지보수 기간 제공</p>
+          </div>
+        </div>
+    </div>
+    <hr class="divider my-4" />
+    <div class="row justify-content-center">
+      {% for post in site.posts %} {% if post.featured == true %} {% include featuredboxsingle.html %} {% endif %} {% endfor %}
+    </div>
+    <div class="row justify-content-left">
+      <div class="col-lg-8">
+        개발 가능한 분야는 다음과 같습니다.
+      <ul>
+        <li>Test automation</li>
+        <li>Embedded System FW</li>
+        <li>PC Application (TCP/IP network)</li>
+        <li>Cloud service</li>
+        <li>Flask Based Backend/Frontend solution</li>
+      </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio"><i class="fa fa-angle-down fa-3x"></i></a>
+      </div>
+  </div>
+  </div> <!-- container -->
+</section>
+<!-- Image Showcases-->
+<!-- <section class="showcase">
+  <div class="container-fluid p-0">
+      {% for post in site.posts %} {% if post.featured == true %} {% include featuredboxsingle.html %} {% endif %} {% endfor %}
+      <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/portfolio/fullsize/1.jpg')"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              <h2>Fully Responsive Design</h2>
+              <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          </div>
+      </div>
+      <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/portfolio/fullsize/2.jpg')"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+              <h2>Updated For Bootstrap 4</h2>
+              <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          </div>
+      </div>
+      <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/portfolio/fullsize/3.jpg')"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              <h2>Easy to Use & Customize</h2>
+              <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          </div>
+      </div>
+  </div>
+</section> -->

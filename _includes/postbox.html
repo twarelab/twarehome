@@ -1,0 +1,32 @@
+<!-- end post -->
+<!-- post -->
+<div class="col-lg-4 col-sm-6">
+<a class="portfolio-box" href="{{ post.url | absolute_url }}">
+    {% if post.image %} <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+    <div class="portfolio-box-caption p-3">
+    <div class="project-category text-white-50">{{ post.title }}</div>
+    <div class="project-name">{{ post.excerpt | strip_html | truncatewords:25 }}</div>
+    </div>
+</a>
+</div>
+<!--     
+<div class="col mb-6">
+    <div class="card border-0">
+        <a href="{{ post.url | absolute_url }}">
+            {% if post.image %} <img class="card-img-top" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+        </a>
+        <div class="card-body">
+            <h5 class="card-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h5>
+            <p class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</p>
+            <div class="metafooter">
+                <div>
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                    </span>
+                    <span class="post-read-more"><a href="{{ post.url | absolute_url }}" title="Read Story"><i class="fa fa-link"></i></a></span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- end post -->

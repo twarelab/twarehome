@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.image %}
+<header class="posthead" style="background-image: url('{{ page.image | prepend: site.baseurl | replace: '//', '/' }}');">
+{% else %}
+<header class="posthead">
+{% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+            <span class="meta">Posted by
+              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=page.content %}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+<section class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Post Content -->
+                <div class="article-post">
+                    {{content}}
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Post Date -->
+                <p>
+                <small>
+                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                    {% if page.last_modified_at %}
+                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                    {% endif %}
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Archive
+---
+
+<!-- Begin List Posts
+================================================== -->
+<section class="row recent-posts">
+    <div class="col-md-12">
+        <div class="section-title">
+            <h2><span>{{ page.type }} '{{ page.title }}'</span></h2>
+        </div>
+        <div class="row">
+
+            {% for post in page.posts %}
+
+            {% include postbox.html %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
